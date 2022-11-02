@@ -2,7 +2,7 @@ extends layout
 
 block content
   h1= title
-  - var results = [{icecream_brand: "qualitywalls", icecream_flavour: "choclate", calories: 22.3},  {icecream_brand: "Bluebell", icecream_flavour: "Butter Pecan", calories: 12.3}, {{icecream_brand: "Magnum", icecream_flavour: "Teaberry", calories: 13}}];
+  - var results = [{"icecream_brand": "qualitywalls", "icecream_flavour": "choclate", "calories": 22.3},  {"icecream_brand": "Bluebell", "icecream_flavour": "Butter Pecan", "calories": 12.3}, {"icecream_brand": "Magnum", "icecream_flavour": "Teaberry", "calories": 13}];
   div(class="container-fluid")
     div(class="row")
         each item in results

@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('iceCream', { title: 'earch Results IceCream' });
+  res.render('iceCream', { title: 'Search Results IceCream' });
 });
 
 module.exports = router;
